@@ -1,0 +1,51 @@
+html{
+    font-family: Verdana, sans-serif;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner .left{
+    background-color: #29434E;
+    color: white;
+    text-align: center;
+    width: 70%;
+    height: 70px;
+}
+
+.banner .right{
+    background-color: #29434E;
+    color: white;
+    width: 30%;
+    height: 70px;
+}
+
+.recommended,.fantastic-films{
+    background-color: #B0BEC5;
+    height: 320px;
+    overflow: scroll;
+}
+
+.footer{
+    background-color: #29434E;
+    color: white;
+}
+
+div.block{
+    float: left;
+    padding: 5px;
+    width: 226px;
+    height: 280px;
+}
+
+h3{
+    background-color: #546E7A;
+    color: white;
+    margin: 0;
+}
+
+h4{
+    text-align: center;
+    margin: 0;
+}
