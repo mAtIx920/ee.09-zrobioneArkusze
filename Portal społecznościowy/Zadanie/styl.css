@@ -1,0 +1,75 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*STYLE BANERA*/
+.banner {
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+
+/*STYLE BLOKU MAIN*/
+.main {
+    overflow: scroll;
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+}
+
+.wrapper {
+    position: relative;
+    height: 140px;
+}
+
+
+.main .wrapper .image {
+    float: left;
+    width: 20%;
+}
+
+.main .wrapper .line {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+img {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: #00897B;
+}
+
+
+/*STYLE STOPKI*/
+.wrap {
+    display: flex;
+}
+
+.footer-one,
+.footer-two {
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+}
+
+.footer-two a {
+    color: white;
+}
