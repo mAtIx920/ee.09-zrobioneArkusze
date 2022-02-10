@@ -1,0 +1,57 @@
+body {
+    font-family: "Garamond"sans-serif;
+}
+
+.banner,
+.wrap {
+    display: flex;
+}
+
+.banner div.left,
+div.right {
+    background-color: rgb(95, 158, 160);
+    color: yellow;
+    width: 20%;
+    height: 90px;
+    text-align: right;
+}
+
+.banner .middle {
+    background-color: rgb(95, 158, 160);
+    color: yellow;
+    width: 60%;
+    height: 90px;
+    text-align: center;
+}
+
+.left,.right {
+    background-color: rgb(175, 238, 238);
+    width: 50%;
+    height: 250px;
+}
+
+.main{
+    background-color: rgb(95, 158, 160);
+    padding: 30px;
+}
+
+.footer {
+    background-color: rgb(175, 238, 238);
+    padding: 10px;
+}
+
+table {
+    border: 2px green dotted;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 2px dotted green;
+}
+
+table th {
+    border: 2px dotted green;
+    background-color: green;
+    color: yellow;
+}
