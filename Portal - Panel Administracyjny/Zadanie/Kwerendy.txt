@@ -1,0 +1,4 @@
+1. SELECT id, imie, nazwisko, rok_urodzenia, zdjecie FROM osoby LIMIT 30;
+2. SELECT osoby.imie, osoby.nazwisko, osoby.rok_urodzenia, osoby.opis, osoby.zdjecie, hobby.nazwa FROM osoby JOIN hobby ON osoby.Hobby_id = hobby.id AND osoby.id = 10;
+3. SELECT (SUM(rok_urodzenia) / COUNT(id)) AS srednia_roczników, MIN(rok_urodzenia), MAX(rok_urodzenia) FROM osoby;
+4. UPDATE osoby SET opis = 'Lubie jezdzic na rolkach' WHERE Hobby_id = 4;

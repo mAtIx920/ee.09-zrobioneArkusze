@@ -1,0 +1,38 @@
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+.banner,.footer{
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+
+.left,.right{
+    background-color: #FFA4A2;
+    height: 650px;
+    width: 50%;
+}
+
+.wrap{
+    display: flex;
+}
+
+h4{
+    margin: 0;
+}
+
+input:nth-child(2){
+    background-color: #AF4448;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
