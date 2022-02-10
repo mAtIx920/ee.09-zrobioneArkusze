@@ -1,0 +1,53 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearFix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.baner, .foot {
+    background-color: #4682B4;
+    color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    background-color: #40E0D0;
+    width:40%;
+    height: 550px;
+}
+
+.right {
+    background-color: #40E0D0;
+    width:60%;
+    height: 550px;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+a {
+    display: block;
+}
+
+img {
+    padding: 5px;
+     margin:10px;
+    border: 1px solid #000000
+}
