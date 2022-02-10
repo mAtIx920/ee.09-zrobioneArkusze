@@ -1,0 +1,53 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+    display:  flex;
+}
+
+.top .logo{
+    background-color: rgb(162, 117, 87);
+    width: 20%;
+    height: 100px;
+}
+
+.top .menu{
+    background-color: rgb(162, 117, 87);
+    width: 80%;
+    height: 100px;
+    text-align: right;
+}
+
+.banner,.footer{
+    clear: both;
+    background-color: rgb(74, 45, 32);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.left,.right{
+    float: left;
+    background-color: rgb(162, 117, 87);
+    color: white;
+    width: 50%;
+    height: 500px;
+}
+
+h1{
+    letter-spacing: 10px;
+}
+
+a{
+    color: rgb(65, 98, 85);
+    padding: 20px;
+    margin: 10px;
+    font-size: 150%;
+    line-height: 100px;
+    border: solid 1px rgb(65, 98, 85);
+}
+
+li:nth-child(4){
+    text-decoration:line-through;
+}
