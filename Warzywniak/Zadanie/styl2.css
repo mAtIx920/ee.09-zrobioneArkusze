@@ -1,0 +1,53 @@
+body {
+    font-family: "Garmond"sans-serif;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner .left-banner {
+    background-color: #00600F;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 90px;
+}
+
+.banner .right-banner {
+    background-color: #00600F;
+    color: white;
+    width: 25%;
+    height: 90px;
+}
+
+.main {
+    background-color: #C8E6C9;
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+}
+
+.footer {
+    background-color: #00600F;
+    color: white;
+}
+
+h5 {
+    background-color: #00600F;
+    color: #fff;
+    font-size: 200%;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    text-align: right;
+}
+
+div.product {
+    float: left;
+    margin: 10px;
+    border: 1px solid #00600F;
+    width: 300px;
+}
