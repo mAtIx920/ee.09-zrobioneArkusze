@@ -1,0 +1,36 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    display: flex;
+}
+
+.banner .left{
+    background-color: #483d8b;
+    height: 150px;
+    width: 30%;
+}
+
+.banner .right{
+    background-color: #483D8B;
+    color: white;
+    height: 150px;
+    width: 70%;
+}
+
+.block{
+    float:left;
+    background-color: #AFEEEE;
+    width: 150px;
+    height: 100px;
+    margin: 3px;
+    border: 1px solid;
+}
+
+.footer{
+    clear:both;
+    background-color: #483D8B;
+    color: white;
+    padding: 10px;
+}
