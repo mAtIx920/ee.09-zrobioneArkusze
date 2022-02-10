@@ -1,0 +1,44 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.banner{
+    background-color: LightPink;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.left{
+    float: left;
+    background-color: lightpink;
+    height: 500px;
+    width: 20%;
+    font-size: 20px;
+}
+
+.right{
+    float: left;
+    background-color: black;
+    height: 500px;
+    width: 80%;
+    font-size: 30px;
+    color: LightPink;
+}
+
+.footer{
+    clear: both;
+    background-color: LightPink;
+    height: 60px;
+}
+
+.left img{
+    width: 180px;
+    height: 180px;
+}
+
+p{
+    margin-top: 50px;
+}
+
