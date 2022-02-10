@@ -1,0 +1,4 @@
+1. SELECT id, nazwa, opis, cena FROM podzespoly WHERE cena < 1000;
+2. SELECT nazwa, opis FROM podzespoly WHERE dostepnosc = 1 AND opis LIKE '%intel%';
+3. SELECT podzespoly.nazwa, producenci.nazwa FROM podzespoly JOIN producenci ON podzespoly.producenci_id = producenci.id;
+4. UPDATE producenci SET nazwa = UPPER('patriot') WHERE nazwa = 'Patriot';
