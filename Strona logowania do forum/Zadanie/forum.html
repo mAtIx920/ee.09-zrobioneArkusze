@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hobby.css">
+    <title>Nasze hobby</title>
+</head>
+<body>
+    <section class="banner">
+        <h1>FORUM HOBBYSTYCZNE</h1>
+    </section>
+
+    <div class="wrap">
+        <section class="left">
+            <h3>FORUMLARZ REJESTRACJI DO FORUM</h3>
+            <form action="rejestracja.php" method="POST">
+                <p><b>Twoje dane</b></p>
+
+                <label>Nick:</label></br>
+                <input type="text" name="name"></br>
+
+                <label>Hobby</label></br>
+                <input type="text" name="hobby"></br>
+
+                <label>Zawód</label></br>
+                <input type="text" name="profession"></br>
+                <input type="radio" name="1" value="K">Kobieta
+                <input type="radio" name="1" value="M">Mężczyzna
+
+                <hr style="width:100%">
+
+                <p><b>Dane logowania</b></p>
+                <label>Login:</label></br>
+                <input type="text" name="login"></br>
+
+                <label>Hasło:</label></br>
+                <input type="password" name="password"></br>
+                <input type="checkbox" checked>Zapoznałem się z <a target="_blank" href="polityka.txt">Polityką bezpieczeństwa</a></br></br>
+                <input type="reset" value="WYCZYŚĆ">
+                <input type="submit" value="REJESTRUJ" name="send">
+            </form>
+            
+
+        </section>
+
+        <section class="right">
+            <h3>TEMATY NA FORUM</h3>
+            <ul>
+                <li>Hodowla zwierząt</li>
+                <ul>
+                    <li>psy</li>
+                    <li>koty</li>
+                </ul>
+                <li>Muzyka</li>
+                <li>Gry komputerowe</li>
+            </ul>
+        </section>
+    </div>    
+</body>
+</html>
